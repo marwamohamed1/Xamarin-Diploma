@@ -1,0 +1,7 @@
+C:\Users\Marwa\source\repos\xamarin 2\task2Game\Game\Game\bin\Debug\Game.exe.config
+C:\Users\Marwa\source\repos\xamarin 2\task2Game\Game\Game\bin\Debug\Game.exe
+C:\Users\Marwa\source\repos\xamarin 2\task2Game\Game\Game\bin\Debug\Game.pdb
+C:\Users\Marwa\source\repos\xamarin 2\task2Game\Game\Game\obj\Debug\Game.csprojAssemblyReference.cache
+C:\Users\Marwa\source\repos\xamarin 2\task2Game\Game\Game\obj\Debug\Game.csproj.CoreCompileInputs.cache
+C:\Users\Marwa\source\repos\xamarin 2\task2Game\Game\Game\obj\Debug\Game.exe
+C:\Users\Marwa\source\repos\xamarin 2\task2Game\Game\Game\obj\Debug\Game.pdb
