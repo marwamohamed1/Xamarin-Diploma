@@ -1,0 +1,7 @@
+c:\users\marwa\source\repos\DirectorySearch\DirectorySearch\bin\Debug\DirectorySearch.exe.config
+c:\users\marwa\source\repos\DirectorySearch\DirectorySearch\bin\Debug\DirectorySearch.exe
+c:\users\marwa\source\repos\DirectorySearch\DirectorySearch\bin\Debug\DirectorySearch.pdb
+c:\users\marwa\source\repos\DirectorySearch\DirectorySearch\obj\Debug\DirectorySearch.csprojAssemblyReference.cache
+c:\users\marwa\source\repos\DirectorySearch\DirectorySearch\obj\Debug\DirectorySearch.csproj.CoreCompileInputs.cache
+c:\users\marwa\source\repos\DirectorySearch\DirectorySearch\obj\Debug\DirectorySearch.exe
+c:\users\marwa\source\repos\DirectorySearch\DirectorySearch\obj\Debug\DirectorySearch.pdb
