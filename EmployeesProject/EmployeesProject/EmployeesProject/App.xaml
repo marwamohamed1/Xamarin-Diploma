@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EmployeesProject.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Label" x:Key="lblSubHeader">
+                <Setter Property="XAlign" Value="Center"></Setter>
+                <Setter Property="FontSize" Value="16"></Setter>
+                <Setter Property="FontAttributes" Value="Bold"></Setter>
+                <Setter Property="TextColor" Value="#00b6ff"></Setter>
+
+            </Style>
+            <Style TargetType="Label" x:Key="lblData">
+                <Setter Property="XAlign" Value="Center"></Setter>
+                <Setter Property="FontSize" Value="13"></Setter>
+                <Setter Property="TextColor" Value="Gray"></Setter>
+
+            </Style>
+            <Style TargetType="Button" x:Key="btnIcon">
+                <Setter Property="FontFamily">
+                    <Setter.Value>
+                        <OnPlatform x:TypeArguments="x:String">
+                            <On Platform="Android">FontAwesome.otf#Font Awesome 5 Free Solid</On>
+                            <On Platform="iOS">Font Awesome 5 Free</On>
+
+                        </OnPlatform>
+                    </Setter.Value>
+                </Setter>
+                <Setter Property="TextColor" Value="#00b6ff"></Setter>
+                <Setter Property="BackgroundColor" Value="Transparent"></Setter>
+                <Setter Property="FontSize" Value="25"></Setter>
+                <!-- <Setter Property="FontFamily" Value="FontAwesome.otf#Font Awesome 5 Free Solid"></Setter>-->
+            </Style>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EmployeesProject.Views.EmployeeDetails" x:Name="detailsPage">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="150"></ColumnDefinition>
+                <ColumnDefinition Width="250"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <Label Grid.Row="0" Grid.Column="0" Style="{StaticResource lblSubHeader}" Text="Employee Name"></Label>
+            <Label Grid.Row="0" Grid.Column="1" Style="{StaticResource lblData}" Text="{Binding Employee.EmployeeName}"></Label>
+
+            <Label Grid.Row="1" Grid.Column="0" Style="{StaticResource lblSubHeader}" Text="Employee Department"></Label>
+            <Label Grid.Row="1" Grid.Column="1" Style="{StaticResource lblData}" Text="{Binding Employee.EmployeeDepartment}"></Label>
+
+            <Label Grid.Row="2" Grid.Column="0" Style="{StaticResource lblSubHeader}" Text="Position"></Label>
+            <Label Grid.Row="2" Grid.Column="1" Style="{StaticResource lblData}" Text="{Binding Employee.Position}"></Label>
+
+            <Label Grid.Row="3" Grid.Column="0" Style="{StaticResource lblSubHeader}" Text="Branch"></Label>
+            <Label Grid.Row="3" Grid.Column="1" Style="{StaticResource lblData}" Text="{Binding Employee.Branch}"></Label>
+
+            <Label Grid.Row="4" Grid.Column="0" Style="{StaticResource lblSubHeader}" Text="Mobile"></Label>
+            <Label Grid.Row="4" Grid.Column="1" Style="{StaticResource lblData}" Text="{Binding Employee.Mobile}"></Label>
+
+            <Label Grid.Row="5" Grid.Column="0" Style="{StaticResource lblSubHeader}" Text="Salary"></Label>
+            <Label Grid.Row="5" Grid.Column="1" Style="{StaticResource lblData}" Text="{Binding Employee.Salary}"></Label>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

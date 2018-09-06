@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EmployeesProject.Views.AddEmployee"
+            >
+        <StackLayout>
+        <Entry Placeholder="Employee id" PlaceholderColor="BurlyWood" Text="{Binding Employee.EmployeeId}" Keyboard="Numeric"></Entry>
+            <Entry Placeholder="Employee Name" PlaceholderColor="BurlyWood" Text="{Binding Employee.EmployeeName}"></Entry>
+            <Entry Placeholder="Employee Department" PlaceholderColor="BurlyWood" Text="{Binding Employee.EmployeeDepartment}"></Entry>
+            <Entry Placeholder="Position" PlaceholderColor="BurlyWood" Text="{Binding Employee.Position}"></Entry>
+            <Entry Placeholder="Branch" PlaceholderColor="BurlyWood" Text="{Binding Employee.Branch}"></Entry>
+        <Entry Placeholder="Mobile" PlaceholderColor="BurlyWood"  Text="{Binding Employee.Mobile}"  Keyboard="Telephone"></Entry>
+        <Entry Placeholder="Salary" PlaceholderColor="BurlyWood"  Text="{Binding Employee.Salary}" Keyboard="Numeric"></Entry>
+            <Button Command="{Binding AddCommand}" Text="Save"></Button>
+        </StackLayout>
+</ContentPage>
